@@ -60,7 +60,7 @@ var sketch = (p) => {
     };
     p.draw = () => {
         p.background(100);
-        p.ortho(-400, 400, 400, -400, 0, 1000);
+        p.ortho(-300, 300, 300, -300, 0, 1000);
         p.rotateX(-ma);
         p.rotateY(-p.QUARTER_PI);
         p.pointLight(255, 255, 255, 0, 0, 400);
