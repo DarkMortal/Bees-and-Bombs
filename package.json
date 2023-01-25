@@ -1,0 +1,16 @@
+{
+  "name": "bees_and_bombs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"browser-sync start --server -w\" \" tsc --watch\""
+  },
+  "author": "Saptarshi Dey",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/p5": "^0.7.2",
+    "browser-sync": "^2.26.7",
+    "concurrently": "^4.1.0",
+    "typescript": "^3.5.1"
+  }
+}
